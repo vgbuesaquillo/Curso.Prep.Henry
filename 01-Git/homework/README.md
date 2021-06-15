@@ -3,16 +3,19 @@
 ### Pre-requisitos
 
 * Crear una cuenta en [Github.com](https://www.github.com/).
+R/ Cuenta creada
 * Si usas una computadora con Windows, puedes instalar la terminal de comandos _git-bash_ haciendo click [acá](https://git-for-windows.github.io/).
+R/ Terminal instalada
 * Si usas Mac, `git` viene pre-instalado y puedes acceder desde la terminal pulsando ⌘+Espacio y escribiendo "terminal". Puedes asegurarte de que git está instalado escribiendo `which git` en la terminal y pulsando Enter, si aparece la ruta de un archivo está todo correcto. En algunas ocasiones, podrías ser redireccionado a la descarga de la línea de comandos de Xcode, sigue las instrucciones.
 * Si usas Linux, tal vez necesites instalar git accediendo a tu terminal e ingresado `apt-get install git`
+R/ Git fue instalado en windows
 * Si tienes problemas instalando Git, este recurso puede servir de ayuda: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
 ### Comandos básicos de terminal
 
 > Usaremos la "terminal" o "línea de comandos" durante tu tiempo en Henry. Si estás en una computadora con Mac o Linux, deberías tener la terminal y git ya instalados. Si estás en una máquina con Windows, te recomendamos instalar ["git-bash"](https://git-for-windows.github.io/).
-
+R/ Git bash fue instalada
 Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, añadir, eliminar y modificar archivos, y muchas cosas más. La terminal es una herramienta muy poderosa para los desarrolladores y vas a usarla mucho en tu carrera profesional. Al principio puede parecer aterrador, pero con el tiempo terminarás disfrutando su uso, así que es mejor acostumbrarse ahora. Para comenzar, aprenderemos los comandos "básicos":
 
 "List": Nos permite ver el contenido de la carpeta donde nos encontramos.
@@ -54,13 +57,19 @@ Para ello primero iremos a la carpeta de nivel superior, escribe en la consola:
   cd ~
 ```
 
-y presiona Enter. Una vez estés en el nivel superior, escribe:
+y presiona Enter. 
+
+R/ No la creé en el nivel superior sino en la carpeta que designé para ello
+
+Una vez estés en el nivel superior, escribe:
 
 ```bash
   mkdir Henry
 ```
 
 y presiona Enter. ¡Felicitaciones, has creado un directorio!
+
+R/ Creé la carpeta CURSOHENRY
 
 ### Crear un Repositorio
 
@@ -75,6 +84,8 @@ En la nueva pantalla, vas a tener que seleccionar el nombre de tu nuevo repo. Cr
 Luego elegí la visibilidad del proyecto como público (para tener repos privados tenes que pagar el premium de github).
 
 Por último haz clic en **Crear repositorio**.
+
+R/ Creé uno que se llama otrosHENRY
 
 Listo ya tenes tu propio repo. Ahora vas a poder clonarlo con las intrucciones de más abajo.
 
@@ -93,6 +104,8 @@ Una vez tengas la dirección copiada, vuelve a tu terminal y escribe lo siguient
 
 Esto descargará el repositorio y tendrás disponible una copia local guardada en tu máquina.
 
+R/ Hice el proceso y cloné el curso en la carpeta CURSOHENRY
+
 ### Comandos de git:
 
 Durante estas lecciones interactuaremos con git a través de la terminal. En el futuro, podrías estar interesado en usar una interfaz visual/gráfica, pero durante estas lecciones necesitaremos usar la terminal para acceder a todas las funciones de git.
@@ -105,6 +118,7 @@ A continuación, escribe lo siguiente en tu terminal:
   $ cd henry
   $ touch archivo-ejemplo.js
 ```
+R/ Creé el archivo en la carpeta trabajosHENRY
 
 Esto añadirá un nuevo archivo llamado "archivo-ejemplo.js" a tu proyecto.
 
@@ -140,11 +154,15 @@ Para hacer esto, usaremos el comando "add":
   git add archivo-ejemplo.js
 ```
 
+R/ Se modificó y guardó el archivo.
+
 Esto agregó nuestros cambios al historial. Ahora, para guardar el historial, usaremos el comando "commit". Commit agarrará todos nuestros cambios y los guardará en el historial de git. Para futuras referencias, podrás añadir un mensaje acerca de los cambios hechos, esto facilitará ir atrás en el historial y encontrar los cambios que vos (o cualquiera) busque en el futuro en caso de necesitarlo. Siempre es una buena idea hacer una descripción clara y concisa de los cambios. Un _shorthand_ para añadir un mensaje, es usar la bandera (flag) "-m" y escribir el mensaje a continuación usando comillas.
 
 ```bash
   git commit -m 'Agregado nuevo archivo, archivo-ejemplo.js'
 ```
+
+R/Se guardó los cambios y se hizo el commit respectivo
 
 Ahora que guardamos nuestros cambios localmente, vamos a querer compartir esos cambios en Github. Para ello, usaremos "push":
 
@@ -164,5 +182,7 @@ La terminal te preguntará tu usuario y contraseña (En el caso de la contraseñ
   To git@github.com:[your username]/Precourse.git
     cccc682..283b9dd  master -> master
 ```
+
+R/ Se envió los cambios al repositorio externo.
 
 ¡Felicitaciones, acabas de subir tu primer git commit!
