@@ -1,0 +1,10 @@
+"for"
+La palabra for forma parte de un código que se usa para desarrollar una acción que se repite varias veces,
+hasta que se cumple una condición.
+"&&"
+La combinación de símbolos && es equivalente a la palabra y, que equivale a decir que se deben cumplir dos condiciones a la vez para que se ejecute el código.
+"||"
+La combinación de símbolos || es equivalente a la palabra o, que quiere decir que se debe cumplir una de dos condiciones dadas para que se ejecuten las acciones del código.
+"!"
+El símbolo de admiración "!" simboliza la negación de una afirmación y cambia la veracidad de la misma, lo cual quiere decir que si la afirmación era verdadera queda falsa y si era falsa queda verdadera.
+
