@@ -1,0 +1,1 @@
+R/ Los arreglos son elementos de código que guardan uno o varios valores, incluso órdenes, a los que puedo acceder y usar.
