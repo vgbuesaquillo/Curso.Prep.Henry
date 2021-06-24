@@ -1,0 +1,19 @@
+Objetos:
+
+Los objetos son piezas de código que almacenan diferentes valores y acciones a los cuales puedo acceder invocando el objeto seguido de un punto y la propiedad requerida.
+
+Propiedades:
+
+Las propiedades son cada uno de los valores asignados a un objeto.
+
+Métodos:
+
+Un método es una propiedad de un objeto que ejecuta una acción determinada cuando se invoca.
+
+Bucle 'for...in'
+
+El bucle 'for...in' se usa para acceder a todas las propiedades de un objeto en un solo ciclo.
+
+Notación de puntos vs notación de corchetes:
+
+Las notaciones de puntos y de corchetes son diferentes maneras de acceder a las propiedades de un objeto.
