@@ -1,0 +1,4 @@
+* "prototype"
+Un prototipo permite asignar métodos o ejecutar acciones en un grupo de lineas de código que se denomina clase 
+* "_Constructors_"(de Clases)
+El contructor permite agregar propiedades a un grupo de líneas de código denominadas clase.
