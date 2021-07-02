@@ -1,0 +1,3 @@
+* Funciones Callback
+
+Las funciones callbacks son aquellas que tienen como argumentos otras funciones, es decir piezas de código que ejecutan acciones antes que simplemente representar valores.

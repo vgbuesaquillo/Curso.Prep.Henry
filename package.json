@@ -23,5 +23,8 @@
   "license": "ISC",
   "jest": {
     "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "how-to-npm": "^1.1.1"
   }
 }
