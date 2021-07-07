@@ -1,0 +1,44 @@
+*{
+	background-image: url("https://p1.pxfuel.com/preview/871/271/778/restaurant-people-men-women.jpg");
+}
+
+h1 {
+	color: springgreen;
+	text-align: center;
+}
+
+.titulares {
+	text-align: center;
+	color: white;
+}
+
+img {
+	width: 400px;
+}
+#thirdDiv {
+	width: 500px;
+	height: 600px;
+	background: teal;
+	padding: 50px;
+	border: 10px solid green;
+	/*border-color: blue;
+	border-style: inset;*/
+	position: relative;
+}
+#spanId {
+	display: table;
+	font-size: 18px;
+	/* margin: 50px; */
+	margin: 50px auto;
+	color: teal;
+	position: static;
+}
+
+div {
+	margin: 0 auto;
+}
+
+a {
+	display:table;
+	margin:0 auto;
+}
