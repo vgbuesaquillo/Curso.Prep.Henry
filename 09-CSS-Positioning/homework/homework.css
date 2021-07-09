@@ -1,13 +1,14 @@
 /*
-Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
-archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás 
+tocando cualquier otro archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+	display: block;
+	text-align: center;
 }
 
 
@@ -15,24 +16,83 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
-
+#ejercicioDos {
+	display: none;
+	/* visibility: hidden; */
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+#ejercicioTres {
+	position: relative;
+	margin-left: 200px;
+	margin-top: 100px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
-
+#ejercicioCuatro {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioCinco {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center; 
+	justify-content: space-around;
+}
 
 /* Ejercicio 6. */
+/* Escrito en el código del ejercicio cinco */
+
+#ejercicioSiete{
+	position: static;
+	display: flex;
+	background: indianred;
+	flex-direction: column-reverse;
+	margin: 20px auto;
+}
+
+#elementoUno {
+	position: relative;
+	background: wheat;
+	margin-top: 0px;
+	bottom: 50%;
+	margin-left: 75%;
+	width: 25%;
+	border: solid;
+}
+
+#elementoDos {
+	background: burlywood;
+	margin-top: 0px;
+	margin-left: 50%;
+	width: 25%;
+}
+
+#elementoTres {
+	background: aqua;
+	margin-top: 0px;
+	margin-left: 25%;
+	width: 25%;
+	border: solid;
+}
+
+#elementoCuatro {
+	position: relative;
+	background: seagreen;
+	margin-top: 0%;
+	top: 50%;
+	margin-left: 0px;
+	width: 25%;
+}
